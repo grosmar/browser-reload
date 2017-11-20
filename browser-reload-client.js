@@ -34,9 +34,9 @@ function listen()
 	});
 }
 
-if ( io === undefined ) {
+if ( window.io === undefined ) {
 	var script = document.createElement('script');
-	script.onload = listen();
+	script.onload = listen;
 	script.src = "http://localhost:" + getScriptPort() + "/socket.io/socket.io.js";
 	document.body.appendChild(script);
 }
