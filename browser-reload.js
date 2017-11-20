@@ -56,7 +56,7 @@ function hotSwap()
 	}
 }
 
-fs.watch(watchDir, function (event, filename) {
+fs.watch(watchDir, {recursive: true}, function (event, filename) {
 	console.log('event is: ', event, filename);
 	if ( reloadTimeout != null )
 		clearTimeout(reloadTimeout);
