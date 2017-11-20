@@ -6,6 +6,9 @@
 
 Very useful, when you cannot use hot swap, and need to force reloading the page.
 
+# Install
+```npm install```
+
 # Usage
 ## 1. Start server:
 ```node browser-reload.js --dir <YOUR_DIR_TO_WATCH> --cmd <YOUR_COMMAND_TO_RUN_ON_CHANGE> --port <SERVER_PORT_TO_LISTEN>```
