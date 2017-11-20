@@ -1,0 +1,14 @@
+{
+  "name": "browser-reload",
+  "displayName": "browser-reload",
+  "version": "0.1.0",
+  "description": "Very useful, when you cannot use hot swap, and need to force reloading the page.",
+  "main": "browser-reload.js",
+  "author": "grosmar",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "minimist": "^1.2.0",
+    "socket.io": "^2.0.4"
+  }
+}
